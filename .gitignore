@@ -193,12 +193,14 @@ cython_debug/
 .cursorignore
 .cursorindexingignore
 
-# ROS 2 build artifacts
+# =============================
+# ROS 2 / colcon build artifacts
+# =============================
 build/
 install/
 log/
 
-# Bags
+# ROS bags
 bags/
 *.bag
 *.mcap
@@ -206,19 +208,8 @@ bags/
 metadata.yaml
 SHA256SUMS.txt
 
-# Python cache
+# Python cache (ROS2 nodes generate pyc)
 __pycache__/
 *.pyc
-*.pyo
-*.pyd
 
-# Logs
-*.log
-
-# IDE / OS
-.vscode/
-.idea/
-.DS_Store
-
-# Misc
-*.env
+# RViz, launch, params — DO NOT ignore (keep tracked)
