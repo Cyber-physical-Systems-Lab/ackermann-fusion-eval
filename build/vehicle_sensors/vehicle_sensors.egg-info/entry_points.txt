@@ -1,4 +1,0 @@
-[console_scripts]
-imu_bno055_i2c = vehicle_sensors.imu_bno055_i2c:main
-imu_node = vehicle_sensors.imu_node:main
-wheel_odom_node = vehicle_sensors.wheel_odom_node:main

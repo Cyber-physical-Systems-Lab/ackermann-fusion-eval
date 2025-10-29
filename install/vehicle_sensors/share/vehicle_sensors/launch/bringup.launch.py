@@ -1,1 +1,0 @@
-/home/meilin/zml/project/ros2_ws/build/vehicle_sensors/launch/bringup.launch.py
