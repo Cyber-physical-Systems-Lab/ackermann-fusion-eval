@@ -192,3 +192,33 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# ROS 2 build artifacts
+build/
+install/
+log/
+
+# Bags
+bags/
+*.bag
+*.mcap
+*.mcap.zstd
+metadata.yaml
+SHA256SUMS.txt
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Logs
+*.log
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Misc
+*.env
