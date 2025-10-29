@@ -1,0 +1,68 @@
+[0.000000] (-) TimerEvent: {}
+[0.000386] (vehicle_sensors) JobQueued: {'identifier': 'vehicle_sensors', 'dependencies': OrderedDict()}
+[0.000708] (vehicle_sensors) JobStarted: {'identifier': 'vehicle_sensors'}
+[0.099701] (-) TimerEvent: {}
+[0.200008] (-) TimerEvent: {}
+[0.300323] (-) TimerEvent: {}
+[0.400670] (-) TimerEvent: {}
+[0.500955] (-) TimerEvent: {}
+[0.601245] (-) TimerEvent: {}
+[0.701571] (-) TimerEvent: {}
+[0.801884] (-) TimerEvent: {}
+[0.902205] (-) TimerEvent: {}
+[1.002540] (-) TimerEvent: {}
+[1.102852] (-) TimerEvent: {}
+[1.203143] (-) TimerEvent: {}
+[1.303421] (-) TimerEvent: {}
+[1.403718] (-) TimerEvent: {}
+[1.504025] (-) TimerEvent: {}
+[1.506291] (vehicle_sensors) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/vehicle_sensors', 'build', '--build-base', '/home/meilin/zml/project/ros2_ws/src/build/vehicle_sensors/build', 'install', '--record', '/home/meilin/zml/project/ros2_ws/src/build/vehicle_sensors/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/meilin/zml/project/ros2_ws/src/vehicle_sensors', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'meilin', 'SSH_CLIENT': '192.168.0.184 57044 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/meilin/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/bin/helpers/browser.sh', 'HOME': '/home/meilin', 'OLDPWD': '/home/meilin/zml/project/ros2_ws', 'TERM_PROGRAM_VERSION': '1.105.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-af16d015-b934-48cf-ac65-01fd352777f9.sock', 'ROS_PYTHON_VERSION': '3', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'meilin', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '9', 'PATH': '/home/meilin/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/meilin/zml/project/ros2_ws/src/build/vehicle_sensors', 'SSH_CONNECTION': '192.168.0.184 57044 192.168.0.83 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/meilin/zml/project/ros2_ws/src/build/vehicle_sensors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/meilin/zml/project/ros2_ws/src/install/vehicle_sensors/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[1.604136] (-) TimerEvent: {}
+[1.704477] (-) TimerEvent: {}
+[1.804782] (-) TimerEvent: {}
+[1.837406] (vehicle_sensors) StdoutLine: {'line': b'running egg_info\n'}
+[1.837882] (vehicle_sensors) StdoutLine: {'line': b'creating ../build/vehicle_sensors/vehicle_sensors.egg-info\n'}
+[1.859567] (vehicle_sensors) StdoutLine: {'line': b'writing ../build/vehicle_sensors/vehicle_sensors.egg-info/PKG-INFO\n'}
+[1.859945] (vehicle_sensors) StdoutLine: {'line': b'writing dependency_links to ../build/vehicle_sensors/vehicle_sensors.egg-info/dependency_links.txt\n'}
+[1.860155] (vehicle_sensors) StdoutLine: {'line': b'writing entry points to ../build/vehicle_sensors/vehicle_sensors.egg-info/entry_points.txt\n'}
+[1.860306] (vehicle_sensors) StdoutLine: {'line': b'writing requirements to ../build/vehicle_sensors/vehicle_sensors.egg-info/requires.txt\n'}
+[1.860409] (vehicle_sensors) StdoutLine: {'line': b'writing top-level names to ../build/vehicle_sensors/vehicle_sensors.egg-info/top_level.txt\n'}
+[1.860582] (vehicle_sensors) StdoutLine: {'line': b"writing manifest file '../build/vehicle_sensors/vehicle_sensors.egg-info/SOURCES.txt'\n"}
+[1.904870] (-) TimerEvent: {}
+[1.906056] (vehicle_sensors) StdoutLine: {'line': b"reading manifest file '../build/vehicle_sensors/vehicle_sensors.egg-info/SOURCES.txt'\n"}
+[1.906967] (vehicle_sensors) StdoutLine: {'line': b"writing manifest file '../build/vehicle_sensors/vehicle_sensors.egg-info/SOURCES.txt'\n"}
+[1.907160] (vehicle_sensors) StdoutLine: {'line': b'running build\n'}
+[1.907281] (vehicle_sensors) StdoutLine: {'line': b'running build_py\n'}
+[1.907434] (vehicle_sensors) StdoutLine: {'line': b'creating /home/meilin/zml/project/ros2_ws/src/build/vehicle_sensors/build\n'}
+[1.907557] (vehicle_sensors) StdoutLine: {'line': b'creating /home/meilin/zml/project/ros2_ws/src/build/vehicle_sensors/build/lib\n'}
+[1.907675] (vehicle_sensors) StdoutLine: {'line': b'creating /home/meilin/zml/project/ros2_ws/src/build/vehicle_sensors/build/lib/vehicle_sensors\n'}
+[1.907780] (vehicle_sensors) StdoutLine: {'line': b'copying vehicle_sensors/imu_node.py -> /home/meilin/zml/project/ros2_ws/src/build/vehicle_sensors/build/lib/vehicle_sensors\n'}
+[1.907999] (vehicle_sensors) StdoutLine: {'line': b'copying vehicle_sensors/wheel_odom_node.py -> /home/meilin/zml/project/ros2_ws/src/build/vehicle_sensors/build/lib/vehicle_sensors\n'}
+[1.908173] (vehicle_sensors) StdoutLine: {'line': b'copying vehicle_sensors/__init__.py -> /home/meilin/zml/project/ros2_ws/src/build/vehicle_sensors/build/lib/vehicle_sensors\n'}
+[1.908423] (vehicle_sensors) StdoutLine: {'line': b'running install\n'}
+[1.917739] (vehicle_sensors) StdoutLine: {'line': b'running install_lib\n'}
+[1.940360] (vehicle_sensors) StdoutLine: {'line': b'creating /home/meilin/zml/project/ros2_ws/src/install/vehicle_sensors/lib/python3.12/site-packages/vehicle_sensors\n'}
+[1.940574] (vehicle_sensors) StdoutLine: {'line': b'copying /home/meilin/zml/project/ros2_ws/src/build/vehicle_sensors/build/lib/vehicle_sensors/imu_node.py -> /home/meilin/zml/project/ros2_ws/src/install/vehicle_sensors/lib/python3.12/site-packages/vehicle_sensors\n'}
+[1.940705] (vehicle_sensors) StdoutLine: {'line': b'copying /home/meilin/zml/project/ros2_ws/src/build/vehicle_sensors/build/lib/vehicle_sensors/wheel_odom_node.py -> /home/meilin/zml/project/ros2_ws/src/install/vehicle_sensors/lib/python3.12/site-packages/vehicle_sensors\n'}
+[1.940862] (vehicle_sensors) StdoutLine: {'line': b'copying /home/meilin/zml/project/ros2_ws/src/build/vehicle_sensors/build/lib/vehicle_sensors/__init__.py -> /home/meilin/zml/project/ros2_ws/src/install/vehicle_sensors/lib/python3.12/site-packages/vehicle_sensors\n'}
+[1.941578] (vehicle_sensors) StdoutLine: {'line': b'byte-compiling /home/meilin/zml/project/ros2_ws/src/install/vehicle_sensors/lib/python3.12/site-packages/vehicle_sensors/imu_node.py to imu_node.cpython-312.pyc\n'}
+[1.943088] (vehicle_sensors) StdoutLine: {'line': b'byte-compiling /home/meilin/zml/project/ros2_ws/src/install/vehicle_sensors/lib/python3.12/site-packages/vehicle_sensors/wheel_odom_node.py to wheel_odom_node.cpython-312.pyc\n'}
+[1.944012] (vehicle_sensors) StdoutLine: {'line': b'byte-compiling /home/meilin/zml/project/ros2_ws/src/install/vehicle_sensors/lib/python3.12/site-packages/vehicle_sensors/__init__.py to __init__.cpython-312.pyc\n'}
+[1.944228] (vehicle_sensors) StdoutLine: {'line': b'running install_data\n'}
+[1.944361] (vehicle_sensors) StdoutLine: {'line': b'creating /home/meilin/zml/project/ros2_ws/src/install/vehicle_sensors/share/ament_index\n'}
+[1.944464] (vehicle_sensors) StdoutLine: {'line': b'creating /home/meilin/zml/project/ros2_ws/src/install/vehicle_sensors/share/ament_index/resource_index\n'}
+[1.944576] (vehicle_sensors) StdoutLine: {'line': b'creating /home/meilin/zml/project/ros2_ws/src/install/vehicle_sensors/share/ament_index/resource_index/packages\n'}
+[1.944680] (vehicle_sensors) StdoutLine: {'line': b'copying resource/vehicle_sensors -> /home/meilin/zml/project/ros2_ws/src/install/vehicle_sensors/share/ament_index/resource_index/packages\n'}
+[1.944810] (vehicle_sensors) StdoutLine: {'line': b'copying package.xml -> /home/meilin/zml/project/ros2_ws/src/install/vehicle_sensors/share/vehicle_sensors\n'}
+[1.944940] (vehicle_sensors) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.969902] (vehicle_sensors) StdoutLine: {'line': b'Copying ../build/vehicle_sensors/vehicle_sensors.egg-info to /home/meilin/zml/project/ros2_ws/src/install/vehicle_sensors/lib/python3.12/site-packages/vehicle_sensors-0.0.0-py3.12.egg-info\n'}
+[1.971053] (vehicle_sensors) StdoutLine: {'line': b'running install_scripts\n'}
+[2.004963] (-) TimerEvent: {}
+[2.105258] (-) TimerEvent: {}
+[2.136567] (vehicle_sensors) StdoutLine: {'line': b'Installing imu_node script to /home/meilin/zml/project/ros2_ws/src/install/vehicle_sensors/lib/vehicle_sensors\n'}
+[2.136833] (vehicle_sensors) StdoutLine: {'line': b'Installing wheel_odom_node script to /home/meilin/zml/project/ros2_ws/src/install/vehicle_sensors/lib/vehicle_sensors\n'}
+[2.137210] (vehicle_sensors) StdoutLine: {'line': b"writing list of installed files to '/home/meilin/zml/project/ros2_ws/src/build/vehicle_sensors/install.log'\n"}
+[2.205363] (-) TimerEvent: {}
+[2.207700] (vehicle_sensors) CommandEnded: {'returncode': 0}
+[2.224523] (vehicle_sensors) JobEnded: {'identifier': 'vehicle_sensors', 'rc': 0}
+[2.225635] (-) EventReactorShutdown: {}

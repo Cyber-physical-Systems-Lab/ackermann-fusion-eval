@@ -1,0 +1,39 @@
+running egg_info
+creating ../build/vehicle_sensors/vehicle_sensors.egg-info
+writing ../build/vehicle_sensors/vehicle_sensors.egg-info/PKG-INFO
+writing dependency_links to ../build/vehicle_sensors/vehicle_sensors.egg-info/dependency_links.txt
+writing entry points to ../build/vehicle_sensors/vehicle_sensors.egg-info/entry_points.txt
+writing requirements to ../build/vehicle_sensors/vehicle_sensors.egg-info/requires.txt
+writing top-level names to ../build/vehicle_sensors/vehicle_sensors.egg-info/top_level.txt
+writing manifest file '../build/vehicle_sensors/vehicle_sensors.egg-info/SOURCES.txt'
+reading manifest file '../build/vehicle_sensors/vehicle_sensors.egg-info/SOURCES.txt'
+writing manifest file '../build/vehicle_sensors/vehicle_sensors.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/meilin/zml/project/ros2_ws/src/build/vehicle_sensors/build
+creating /home/meilin/zml/project/ros2_ws/src/build/vehicle_sensors/build/lib
+creating /home/meilin/zml/project/ros2_ws/src/build/vehicle_sensors/build/lib/vehicle_sensors
+copying vehicle_sensors/imu_node.py -> /home/meilin/zml/project/ros2_ws/src/build/vehicle_sensors/build/lib/vehicle_sensors
+copying vehicle_sensors/wheel_odom_node.py -> /home/meilin/zml/project/ros2_ws/src/build/vehicle_sensors/build/lib/vehicle_sensors
+copying vehicle_sensors/__init__.py -> /home/meilin/zml/project/ros2_ws/src/build/vehicle_sensors/build/lib/vehicle_sensors
+running install
+running install_lib
+creating /home/meilin/zml/project/ros2_ws/src/install/vehicle_sensors/lib/python3.12/site-packages/vehicle_sensors
+copying /home/meilin/zml/project/ros2_ws/src/build/vehicle_sensors/build/lib/vehicle_sensors/imu_node.py -> /home/meilin/zml/project/ros2_ws/src/install/vehicle_sensors/lib/python3.12/site-packages/vehicle_sensors
+copying /home/meilin/zml/project/ros2_ws/src/build/vehicle_sensors/build/lib/vehicle_sensors/wheel_odom_node.py -> /home/meilin/zml/project/ros2_ws/src/install/vehicle_sensors/lib/python3.12/site-packages/vehicle_sensors
+copying /home/meilin/zml/project/ros2_ws/src/build/vehicle_sensors/build/lib/vehicle_sensors/__init__.py -> /home/meilin/zml/project/ros2_ws/src/install/vehicle_sensors/lib/python3.12/site-packages/vehicle_sensors
+byte-compiling /home/meilin/zml/project/ros2_ws/src/install/vehicle_sensors/lib/python3.12/site-packages/vehicle_sensors/imu_node.py to imu_node.cpython-312.pyc
+byte-compiling /home/meilin/zml/project/ros2_ws/src/install/vehicle_sensors/lib/python3.12/site-packages/vehicle_sensors/wheel_odom_node.py to wheel_odom_node.cpython-312.pyc
+byte-compiling /home/meilin/zml/project/ros2_ws/src/install/vehicle_sensors/lib/python3.12/site-packages/vehicle_sensors/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/meilin/zml/project/ros2_ws/src/install/vehicle_sensors/share/ament_index
+creating /home/meilin/zml/project/ros2_ws/src/install/vehicle_sensors/share/ament_index/resource_index
+creating /home/meilin/zml/project/ros2_ws/src/install/vehicle_sensors/share/ament_index/resource_index/packages
+copying resource/vehicle_sensors -> /home/meilin/zml/project/ros2_ws/src/install/vehicle_sensors/share/ament_index/resource_index/packages
+copying package.xml -> /home/meilin/zml/project/ros2_ws/src/install/vehicle_sensors/share/vehicle_sensors
+running install_egg_info
+Copying ../build/vehicle_sensors/vehicle_sensors.egg-info to /home/meilin/zml/project/ros2_ws/src/install/vehicle_sensors/lib/python3.12/site-packages/vehicle_sensors-0.0.0-py3.12.egg-info
+running install_scripts
+Installing imu_node script to /home/meilin/zml/project/ros2_ws/src/install/vehicle_sensors/lib/vehicle_sensors
+Installing wheel_odom_node script to /home/meilin/zml/project/ros2_ws/src/install/vehicle_sensors/lib/vehicle_sensors
+writing list of installed files to '/home/meilin/zml/project/ros2_ws/src/build/vehicle_sensors/install.log'

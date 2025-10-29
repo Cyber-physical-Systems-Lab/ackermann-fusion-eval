@@ -1,0 +1,27 @@
+[1.458s] Invoking command in '/home/meilin/zml/project/ros2_ws/build/vehicle_sensors': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/meilin/zml/project/ros2_ws/build/vehicle_sensors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/meilin/zml/project/ros2_ws/install/vehicle_sensors/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ros2_venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/meilin/zml/project/ros2_ws/build/vehicle_sensors/build --no-deps symlink_data
+[1.907s] running develop
+[2.239s] running egg_info
+[2.239s] creating vehicle_sensors.egg-info
+[2.270s] writing vehicle_sensors.egg-info/PKG-INFO
+[2.271s] writing dependency_links to vehicle_sensors.egg-info/dependency_links.txt
+[2.271s] writing entry points to vehicle_sensors.egg-info/entry_points.txt
+[2.272s] writing requirements to vehicle_sensors.egg-info/requires.txt
+[2.273s] writing top-level names to vehicle_sensors.egg-info/top_level.txt
+[2.273s] writing manifest file 'vehicle_sensors.egg-info/SOURCES.txt'
+[2.338s] reading manifest file 'vehicle_sensors.egg-info/SOURCES.txt'
+[2.339s] writing manifest file 'vehicle_sensors.egg-info/SOURCES.txt'
+[2.390s] running build_ext
+[2.391s] Creating /home/meilin/zml/project/ros2_ws/install/vehicle_sensors/lib/python3.12/site-packages/vehicle-sensors.egg-link (link to .)
+[2.395s] Installing imu_node script to /home/meilin/zml/project/ros2_ws/install/vehicle_sensors/lib/vehicle_sensors
+[2.395s] Installing wheel_odom_node script to /home/meilin/zml/project/ros2_ws/install/vehicle_sensors/lib/vehicle_sensors
+[2.396s] 
+[2.396s] Installed /home/meilin/zml/project/ros2_ws/build/vehicle_sensors
+[2.397s] running symlink_data
+[2.397s] creating /home/meilin/zml/project/ros2_ws/install/vehicle_sensors/share/ament_index
+[2.397s] creating /home/meilin/zml/project/ros2_ws/install/vehicle_sensors/share/ament_index/resource_index
+[2.397s] creating /home/meilin/zml/project/ros2_ws/install/vehicle_sensors/share/ament_index/resource_index/packages
+[2.397s] symbolically linking /home/meilin/zml/project/ros2_ws/build/vehicle_sensors/resource/vehicle_sensors -> /home/meilin/zml/project/ros2_ws/install/vehicle_sensors/share/ament_index/resource_index/packages
+[2.398s] symbolically linking /home/meilin/zml/project/ros2_ws/build/vehicle_sensors/package.xml -> /home/meilin/zml/project/ros2_ws/install/vehicle_sensors/share/vehicle_sensors
+[2.399s] creating /home/meilin/zml/project/ros2_ws/install/vehicle_sensors/share/vehicle_sensors/launch
+[2.399s] symbolically linking /home/meilin/zml/project/ros2_ws/build/vehicle_sensors/launch/bringup.launch.py -> /home/meilin/zml/project/ros2_ws/install/vehicle_sensors/share/vehicle_sensors/launch
+[2.581s] Invoked command in '/home/meilin/zml/project/ros2_ws/build/vehicle_sensors' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/meilin/zml/project/ros2_ws/build/vehicle_sensors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/meilin/zml/project/ros2_ws/install/vehicle_sensors/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ros2_venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/meilin/zml/project/ros2_ws/build/vehicle_sensors/build --no-deps symlink_data

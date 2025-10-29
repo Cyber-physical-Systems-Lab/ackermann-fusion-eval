@@ -1,0 +1,3 @@
+[console_scripts]
+imu_node = vehicle_sensors.imu_node:main
+wheel_odom_node = vehicle_sensors.wheel_odom_node:main
