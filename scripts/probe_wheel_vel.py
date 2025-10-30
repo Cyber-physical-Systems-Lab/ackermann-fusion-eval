@@ -1,18 +1,19 @@
 #!/usr/bin/env python3
 import time
 import rclpy
+import os
 from rclpy.node import Node
 from rclpy.qos import QoSProfile, ReliabilityPolicy, HistoryPolicy
 from std_msgs.msg import Float32
 
 class Probe(Node):
     def __init__(self):
-        super().__init__('probe_wheel_vel2')
+        super().__init__('probe_wheel_vel')
         topic = self.declare_parameter('topic', '/wheel_vel').get_parameter_value().string_value
         rel   = self.declare_parameter('reliability', 'besteffort').get_parameter_value().string_value
         self.out = self.declare_parameter('out', '').get_parameter_value().string_value
 
-        qos = QoSProfile(history=HistoryPolicy.KEEP_LAST, depth=10)
+        qos = QoSProfile(history=HistoryPolicy.KEEP_LAST, depth=1)
         qos.reliability = ReliabilityPolicy.RELIABLE if rel.lower().startswith('rel') else ReliabilityPolicy.BEST_EFFORT
 
         self.recv = 0
@@ -41,9 +42,14 @@ class Probe(Node):
         hz = self.recv / max(1e-9, now - self.last_t)
         line = f"[probe] hz={hz:.2f} max_dt={self.max_dt:.4f}s recv={self.recv}"
         print(line, flush=True)
+        
         if self.out:
+            new = not os.path.exists(self.out)
             with open(self.out, 'a') as f:
+                if new:
+                    f.write("t_sec,hz,max_dt,recv\n")
                 f.write(f"{now:.3f},{hz:.3f},{self.max_dt:.6f},{self.recv}\n")
+                
         # 重置下一秒的统计
         self.recv = 0
         self.last_t = now
