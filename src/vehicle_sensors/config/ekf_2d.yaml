@@ -1,0 +1,33 @@
+ekf_filter_node:
+  ros__parameters:
+    frequency: 100.0
+    two_d_mode: true
+    publish_tf: true           # 由 EKF 发布 odom->base_link 的 TF
+    map_frame: map
+    odom_frame: odom
+    base_link_frame: base_link
+    world_frame: odom
+
+    # ========== IMU ==========
+    imu0: /imu
+    imu0_queue_size: 50
+    imu0_differential: false
+    imu0_relative: false
+    imu0_remove_gravitational_acceleration: true
+    # 只用 yaw、gyro_z、ax/ay（其余 false）
+    # 顺序: [x, y, z, roll, pitch, yaw, vx, vy, vz, vroll, vpitch, vyaw, ax, ay, az]
+    imu0_config:       [false, false, false,  false, false, true,
+                    false, false, false,  false, false, true,
+                    false, false, false]
+
+    # ========== 轮速里程计（只用 vx） ==========
+    odom0: /wheel_odom
+    odom0_queue_size: 10
+    odom0_differential: false
+    odom0_relative: false
+    # 只用 vx（其余 false）
+    odom0_config: [false, false, false,
+                   false, false, false,
+                   true,  false, false,
+                   false, false, false,
+                   false, false, false]
